@@ -15,6 +15,7 @@
 		E01B4A791A1117E800639DDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E01B4A781A1117E800639DDB /* Images.xcassets */; };
 		E01B4A7C1A1117E800639DDB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E01B4A7A1A1117E800639DDB /* LaunchScreen.xib */; };
 		E01B4A881A1117E800639DDB /* DBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E01B4A871A1117E800639DDB /* DBTests.m */; };
+		E01B4A961A111C0D00639DDB /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E01B4A951A111C0D00639DDB /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		E01B4A811A1117E800639DDB /* DBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E01B4A861A1117E800639DDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E01B4A871A1117E800639DDB /* DBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBTests.m; sourceTree = "<group>"; };
+		E01B4A941A111C0D00639DDB /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		E01B4A951A111C0D00639DDB /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 				E01B4A781A1117E800639DDB /* Images.xcassets */,
 				E01B4A7A1A1117E800639DDB /* LaunchScreen.xib */,
 				E01B4A6F1A1117E800639DDB /* DB.xcdatamodeld */,
+				E01B4A941A111C0D00639DDB /* Person.h */,
+				E01B4A951A111C0D00639DDB /* Person.m */,
 				E01B4A681A1117E800639DDB /* Supporting Files */,
 			);
 			path = DB;
@@ -224,6 +229,7 @@
 			files = (
 				E01B4A711A1117E800639DDB /* DB.xcdatamodeld in Sources */,
 				E01B4A6E1A1117E800639DDB /* AppDelegate.m in Sources */,
+				E01B4A961A111C0D00639DDB /* Person.m in Sources */,
 				E01B4A741A1117E800639DDB /* ViewController.m in Sources */,
 				E01B4A6B1A1117E800639DDB /* main.m in Sources */,
 			);
